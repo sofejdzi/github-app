@@ -33,7 +33,7 @@ function requestUserRepos(username){
                 <p><strong>Repo:</strong> ${data[d].name}</p>
                 <p><strong>Description:</strong> ${data[d].description}</p>
                 <p><strong>URL:</strong> <a href="${data[d].html_url}">${data[d].html_url}</a></p>
-            `);
+            `); //ispisivanje u HTML
 
             ul.appendChild(li); //dodaje listi element
         }
